@@ -1,3 +1,10 @@
+---
+nav:
+  title: Follow test pyramid
+  position: 20
+
+---
+
 # 2023-02-16 - Follow test pyramid
 
 ::: info

@@ -1,3 +1,10 @@
+---
+nav:
+  title: Mocking repositories
+  position: 30
+
+---
+
 # 2023-01-04 - Mocking repositories
 
 ::: info
