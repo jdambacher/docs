@@ -42,6 +42,7 @@ The`./psh.phar` commands to run our E2E tests in CLI or in Cypress' test runner 
 
 <Tabs>
 <Tab title="Plugin setup">
+
 Depending on your environment \(administration or storefront\) please create the following folder structure:
 
 ```text
@@ -145,6 +146,7 @@ It is **crucial** to set these environment variables in the **same terminal sess
 Make sure that the `DISPLAY` environment variable on your Mac is properly set **before** you start the containers as it will be **passed** to the Cypress container when the container is **created**.
 Updating the variable on your host won't update it in the container until it is re-created!
 :::
+
 </Tab>
 
 <Tab title="Platform: Local environment">
@@ -156,6 +158,7 @@ To use E2E tests locally, you need to set the variable `CYPRESS_LOCAL` in your `
 
 <Tabs>
 <Tab title="Plugin setup">
+
 If you want to run E2E tests in your plugin, just switch to the folder `Resources/app/<enviroment>/test/e2e` and execute the following command:
 
 ```bash
@@ -169,6 +172,7 @@ It opens up the Cypress test runner which allows you to run and debug your tests
 ::: danger
 Don't forget that you might need to adjust test cleanup and other environment-related things according to your plugin's setup.
 :::
+
 </Tab>
 
 <Tab title="Execution in platform project">
